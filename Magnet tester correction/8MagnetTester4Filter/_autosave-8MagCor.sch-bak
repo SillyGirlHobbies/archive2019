@@ -1,0 +1,218 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Sensor_Magnetic:A1101ELHL SS49E1
+U 1 1 60CAB0A9
+P 950 1450
+F 0 "SS49E1" H 721 1496 50  0000 R CNN
+F 1 "Hall Effect Snesor" H 721 1405 50  0000 R CNN
+F 2 "8MagnetTester4Filter:SS49E" H 950 1100 50  0001 L CIN
+F 3 "http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf" H 950 2100 50  0001 C CNN
+	1    950  1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Dual_AAC D1
+U 1 1 60CD40AD
+P 1750 2750
+F 0 "D1" H 1750 3175 50  0000 C CNN
+F 1 "LED_Dual_AAC" H 1750 3084 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm-3" H 1750 2750 50  0001 C CNN
+F 3 "~" H 1750 2750 50  0001 C CNN
+	1    1750 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Dual_AAC D2
+U 1 1 60CD4D0F
+P 3000 2800
+F 0 "D2" H 3000 3225 50  0000 C CNN
+F 1 "LED_Dual_AAC" H 3000 3134 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm-3" H 3000 2800 50  0001 C CNN
+F 3 "~" H 3000 2800 50  0001 C CNN
+	1    3000 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Dual_AAC D3
+U 1 1 60CD6ECD
+P 4150 2800
+F 0 "D3" H 4150 3225 50  0000 C CNN
+F 1 "LED_Dual_AAC" H 4150 3134 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm-3" H 4150 2800 50  0001 C CNN
+F 3 "~" H 4150 2800 50  0001 C CNN
+	1    4150 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Dual_AAC D4
+U 1 1 60CD71D1
+P 5300 2800
+F 0 "D4" H 5300 3225 50  0000 C CNN
+F 1 "LED_Dual_AAC" H 5300 3134 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm-3" H 5300 2800 50  0001 C CNN
+F 3 "~" H 5300 2800 50  0001 C CNN
+	1    5300 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Dual_AAC D5
+U 1 1 60CD7552
+P 6400 2800
+F 0 "D5" H 6400 3225 50  0000 C CNN
+F 1 "LED_Dual_AAC" H 6400 3134 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm-3" H 6400 2800 50  0001 C CNN
+F 3 "~" H 6400 2800 50  0001 C CNN
+	1    6400 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Dual_AAC D6
+U 1 1 60CD75E0
+P 7550 2800
+F 0 "D6" H 7550 3225 50  0000 C CNN
+F 1 "LED_Dual_AAC" H 7550 3134 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm-3" H 7550 2800 50  0001 C CNN
+F 3 "~" H 7550 2800 50  0001 C CNN
+	1    7550 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Dual_AAC D8
+U 1 1 60CD7835
+P 8850 2800
+F 0 "D8" H 8850 3225 50  0000 C CNN
+F 1 "LED_Dual_AAC" H 8850 3134 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm-3" H 8850 2800 50  0001 C CNN
+F 3 "~" H 8850 2800 50  0001 C CNN
+	1    8850 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Dual_AAC D9
+U 1 1 60CD8E4A
+P 9950 2800
+F 0 "D9" H 9950 3225 50  0000 C CNN
+F 1 "LED_Dual_AAC" H 9950 3134 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm-3" H 9950 2800 50  0001 C CNN
+F 3 "~" H 9950 2800 50  0001 C CNN
+	1    9950 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sensor_Magnetic:A1101ELHL SS49E2
+U 1 1 60D2D7AA
+P 2200 1450
+F 0 "SS49E2" H 1971 1496 50  0000 R CNN
+F 1 "Hall Effect Snesor" H 1971 1405 50  0000 R CNN
+F 2 "8MagnetTester4Filter:SS49E" H 2200 1100 50  0001 L CIN
+F 3 "http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf" H 2200 2100 50  0001 C CNN
+	1    2200 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sensor_Magnetic:A1101ELHL SS49E3
+U 1 1 60D2DBAF
+P 3650 1450
+F 0 "SS49E3" H 3421 1496 50  0000 R CNN
+F 1 "Hall Effect Snesor" H 3421 1405 50  0000 R CNN
+F 2 "8MagnetTester4Filter:SS49E" H 3650 1100 50  0001 L CIN
+F 3 "http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf" H 3650 2100 50  0001 C CNN
+	1    3650 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sensor_Magnetic:A1101ELHL SS49E4
+U 1 1 60D2DF07
+P 5000 1450
+F 0 "SS49E4" H 4771 1496 50  0000 R CNN
+F 1 "Hall Effect Snesor" H 4771 1405 50  0000 R CNN
+F 2 "8MagnetTester4Filter:SS49E" H 5000 1100 50  0001 L CIN
+F 3 "http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf" H 5000 2100 50  0001 C CNN
+	1    5000 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sensor_Magnetic:A1101ELHL SS49E5
+U 1 1 60D2E6D1
+P 6400 1450
+F 0 "SS49E5" H 6171 1496 50  0000 R CNN
+F 1 "Hall Effect Snesor" H 6171 1405 50  0000 R CNN
+F 2 "8MagnetTester4Filter:SS49E" H 6400 1100 50  0001 L CIN
+F 3 "http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf" H 6400 2100 50  0001 C CNN
+	1    6400 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sensor_Magnetic:A1101ELHL SS49E6
+U 1 1 60D2EA9C
+P 7750 1450
+F 0 "SS49E6" H 7521 1496 50  0000 R CNN
+F 1 "Hall Effect Snesor" H 7521 1405 50  0000 R CNN
+F 2 "8MagnetTester4Filter:SS49E" H 7750 1100 50  0001 L CIN
+F 3 "http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf" H 7750 2100 50  0001 C CNN
+	1    7750 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sensor_Magnetic:A1101ELHL SS49E7
+U 1 1 60D2F11A
+P 9200 1450
+F 0 "SS49E7" H 8971 1496 50  0000 R CNN
+F 1 "Hall Effect Snesor" H 8971 1405 50  0000 R CNN
+F 2 "8MagnetTester4Filter:SS49E" H 9200 1100 50  0001 L CIN
+F 3 "http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf" H 9200 2100 50  0001 C CNN
+	1    9200 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sensor_Magnetic:A1101ELHL SS49E8
+U 1 1 60D2FBBB
+P 10550 1450
+F 0 "SS49E8" H 10321 1496 50  0000 R CNN
+F 1 "Hall Effect Snesor" H 10321 1405 50  0000 R CNN
+F 2 "8MagnetTester4Filter:SS49E" H 10550 1100 50  0001 L CIN
+F 3 "http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf" H 10550 2100 50  0001 C CNN
+	1    10550 1450
+	1    0    0    -1  
+$EndComp
+Text GLabel 6700 1450 2    50   Input ~ 0
+A3
+Text GLabel 5300 1450 2    50   Input ~ 0
+A4
+Text GLabel 3950 1450 2    50   Input ~ 0
+A5
+Text GLabel 2500 1450 2    50   Input ~ 0
+A6
+Text GLabel 1250 1450 2    50   Input ~ 0
+A7
+NoConn ~ 2050 2650
+NoConn ~ 3300 2700
+NoConn ~ 4450 2700
+NoConn ~ 5600 2700
+NoConn ~ 6700 2700
+NoConn ~ 7850 2700
+NoConn ~ 9150 2700
+NoConn ~ 10250 2700
+NoConn ~ 850  1050
+NoConn ~ 2100 1050
+NoConn ~ 3550 1050
+NoConn ~ 4900 1050
+NoConn ~ 6300 1050
+NoConn ~ 7650 1050
+NoConn ~ 9100 1050
+NoConn ~ 10450 1050
+$EndSCHEMATC
